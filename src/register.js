@@ -6,7 +6,7 @@ export function wrapDidDocument (did, publicKey) {
     id: did,
     publicKey: [{
       id: `${did}#keys-1`,
-      type: 'Secp256k1SignatureVerificationKey2018',
+      type: 'Secp256k1VerificationKey2018',
       owner: did,
       publicKeyHex: publicKey
     }]
